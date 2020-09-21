@@ -1,7 +1,8 @@
-Repositório com objetivo de uso próprio, com os comando mais utilizados ao longo dos cursos.
+#Repositório com objetivo de uso próprio, com os comando mais utilizados ao longo dos cursos.
 
 #Comandos
 
+"""
 docker ps 				--> Exibe todos os conteiners em execução.
 docker info 				--> exibe informalções do docker host.
 docker version 				--> exibe a versão do cliente docker utilizado.
@@ -17,3 +18,4 @@ docker exec [id/nome container]		--> usado para executar comando no container se
 docker run -it -d [imagem] /bin/bash	--> inicia uma imagem e ja entra no bash do conteiner criado. Com o -d ele executa em segundo plano, sem o -d ele entra no bash
 [no bash do conteiner] ctrl+p+q		--> Sai do bash do conteiner sem finalizar o conteiner
 docker attach [container id]		--> volta para o bash do container
+"""
