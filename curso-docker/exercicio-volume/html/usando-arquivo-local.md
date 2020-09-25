@@ -13,5 +13,5 @@ A flag `-d` permite que o container rode em segundo plano
 
 
 ```
-docker container run -d --name exemplo -p 8080:80
+docker container run -d --name exemplo -p 8080:80 -v $(pwd)/html:/usr/share/nginx/html nginx
 ```
