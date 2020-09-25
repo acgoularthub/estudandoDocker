@@ -11,7 +11,7 @@ Também usado o livro "Docker para desenvolvedores" por Rafael ["Gomex"](http://
 
 Curso [Docker: Ferramenta essencial para Desenvolvedores](https://www.udemy.com/course/curso-docker)
 
-Neste material contem:
+Este material contém:
 
 1. [Comandos docker](https://github.com/acgoularthub/estudandoDocker/blob/master/comandos-docker.md)
 2. [Como construir um Dockerfile](https://github.com/acgoularthub/estudandoDocker/blob/master/Dockerfile/dockerFile.md)
