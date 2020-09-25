@@ -1,6 +1,6 @@
-# Repositório com objetivo de uso próprio, com os comando mais utilizados ao longo dos cursos.
+### Repositório com objetivo de uso próprio, com os comando mais utilizados ao longo dos cursos.
 
-# Comandos
+## Comandos
 
 `docker ps` 				--> Exibe todos os conteiners em execução.
 
@@ -33,7 +33,7 @@
 `docker attach [container id]`		--> volta para o bash do container
 
 
-## com o objetivo de subir um container com o nginx rodando um arquivo que se encontra na maquina local, como proposto no curso, criei uma pasta local html e um arquivo intex.html, ao rodar o nginx através da linha de comando a seguir eu consegui realizar a interação do container com a maquina local.
+** com o objetivo de subir um container com o nginx rodando um arquivo que se encontra na maquina local, como proposto no curso, criei uma pasta local html e um arquivo intex.html, ao rodar o nginx através da linha de comando a seguir eu consegui realizar a interação do container com a maquina local. **
 
 ```
 docker container run -p 8080:80 -v $(pwd)/html:/usr/nginx/html
