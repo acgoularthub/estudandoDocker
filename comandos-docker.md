@@ -4,6 +4,10 @@
 
 `docker ps` 				--> Exibe todos os conteiners em execução.
 
+(Os comandos similares para o `docker ps` são `docker container ls` ou `docker container ps` ou `docker container list`, acrescentando a FLAG -a em qualquer destes comandos, eles desempenham o mesmo papel que originalmente cabia ao `docker ps -a` )
+
+`docker container [nome do container oi ID] logs` --> Exibe todos os logs desrte container.
+
 `docker info` 				--> exibe informalções do docker host.
 
 `docker version` 				--> exibe a versão do cliente docker utilizado.
@@ -22,7 +26,11 @@
 
 `docker inspect [nome iamgem]`		--> Retorna um json com as informações do container
 
+(Na nova forma de usar comandos, o `docker container inspect [nome do container/ID]` também se torna válido.)
+
 `docker rmi [nome imagem]`		--> exclui a imagem do host
+
+(A remoção de imagens também se dá por `docker image rm`)
 
 `docker exec [id/nome container]`		--> usado para executar comando no container sem que precisemos estar no console dele
 
