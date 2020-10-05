@@ -39,6 +39,9 @@
 `[no bash do conteiner] ctrl+p+q`		--> Sai do bash do conteiner sem finalizar o conteiner
 
 `docker attach [container id]`		--> volta para o bash do container
+`docker container run -d --net none imagem_nome` --> cria um container isolado, sem acesso a nenhum tipo de rede externa ou interna.
+`docker network inspect nome_da_rede(bridge, host ou qualquer rede criada no docker)` --> Exibe o trecho do json que é responsável pela rede
+
 
 
 **com o objetivo de subir um container com o nginx rodando um arquivo que se encontra na maquina local, como proposto no curso, criei uma pasta local html e um arquivo intex.html, ao rodar o nginx através da linha de comando a seguir eu consegui realizar a interação do container com a maquina local.**
