@@ -18,3 +18,4 @@ Este material contém:
 3. [Meu primeiro Dockerfile](https://github.com/acgoularthub/estudandoDocker/blob/master/Dockerfile/Dockerfile)
 4. [Exemplo usado para carregar um repositório local no container nginx](https://github.com/acgoularthub/estudandoDocker/tree/master/curso-docker/exercicio-volume/html)
 5. Exemplo usado na aula [Usando Arquivos locais](https://github.com/acgoularthub/estudandoDocker/blob/master/curso-docker/exercicio-volume/exemplo-da-aula.md)
+6. [Iniciando o estudo sobre Kubernetes](https://github.com/acgoularthub/kubernetes-pratica)
